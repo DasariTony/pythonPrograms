@@ -195,15 +195,15 @@
 #     num=num//10
 # print(digit_sum)
 
-# 13.Check Armstrong number
-# num=int(input("Enter Number:"))
-# num_to_str=str(num)
-# power=len(num_to_str)
-# sum_num=sum(int(digit) **power for digit in num_to_str)
-# if num==sum_num:
-#     print("amstron")
-# else:
-#     print("not")
+#13.Check Armstrong number
+num=int(input("Enter Number:"))
+num_to_str=str(num)
+power=len(num_to_str)
+sum_num=sum(int(digit) **power for digit in num_to_str)
+if num==sum_num:
+    print("amstron")
+else:
+    print("not")
 
 # 14.Find GCD and LCM
 # import math
