@@ -196,14 +196,14 @@
 # print(digit_sum)
 
 #13.Check Armstrong number
-num=int(input("Enter Number:"))
-num_to_str=str(num)
-power=len(num_to_str)
-sum_num=sum(int(digit) **power for digit in num_to_str)
-if num==sum_num:
-    print("amstron")
-else:
-    print("not")
+# num=int(input("Enter Number:"))
+# num_to_str=str(num)
+# power=len(num_to_str)
+# sum_num=sum(int(digit) **power for digit in num_to_str)
+# if num==sum_num:
+#     print("amstron")
+# else:
+#     print("not")
 
 # 14.Find GCD and LCM
 # import math
@@ -245,3 +245,73 @@ else:
 # print(result_mul)
 # print(result_div)
 # print(result_mod)
+
+# 17	Find length of list without using len()
+# l=[1,2,3,4,5]
+# count=0
+# for i in l:
+#     count+=1
+# print(count)
+
+# 18.Print list in reverse using loop
+# l=[1,2,3,4,5]
+# for i in l[::-1]:
+#     print(i,end="")
+   
+# 19.Linear search in list
+# l=[1,2,3,4,5]
+# search_element=4
+# for i in l:
+#     if i==search_element:
+#         print("found search_element:",i) 
+#     else:
+#         print("element not found ")
+
+# 2.method
+# array=[1,2,3,4,5,6,7,8,9]
+# target=int(input("Enter target value"))
+# def linear_search(array,target):
+#     for i in range(len(array)):
+#         if array[i]==target:
+#             return i
+#     return -1
+
+# result=linear_search(array,target)
+# print(result)
+
+# 21.Count frequency of elements in list
+# l=[1,2,3,3,4,4,4,5,5,6]
+# print(l.count(4))
+ 
+# 2.method 
+# from collections import Counter 
+# l=[1,2,3,3,4,4,4,5,5,6]
+# freq=Counter(l)
+# print(freq)
+
+# 22.Remove duplicates from list
+# my_list=[1,2,3,3,4,4,4,5,5,6]
+# my_list_to_set=set(my_list)
+# print(my_list_to_set)
+
+# 2.method 
+# my_list=[1,2,3,3,4,4,4,5,5,6]
+# unique_list=[]
+# for i in my_list:
+#     if i not in unique_list:
+#         unique_list.append(i)
+# print(unique_list)
+
+# 23.Merge two sorted lists
+# my_list_1=[30,20,10,10]
+# my_list_2=[60,50,40]
+# print((sorted(my_list_1+my_list_2)))
+
+# 24.Create a dictionary from two lists
+# keys=[30,20,10]
+# vlaues=[60,50,40]
+# my_dict=dict(zip(keys,vlaues))
+# print(my_dict)
+       
+#25.Basic file read and write
+
